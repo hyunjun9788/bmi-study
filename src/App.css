@@ -1,38 +1,192 @@
-.App {
-  text-align: center;
+.container {
+    width: 650px;
+    height: 1500px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+    padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+
+    background-color: lightseagreen;
+    padding: 15px 20px 15px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bmi-def {
+    background-color: lightgray;
+    padding: 25px;
+    line-height: 1.5;
+    width: 560px;
+    font-size: 15px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.calculator {
+    border: 1px solid lightgray;
+    height: 210px;
+    margin-top: 10px;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+    width: 50px;
+    height: 20px;
+    margin-left: 20px;
+    border: 1px solid lightgray;
 }
+
+.input {
+    display: flex;
+
+}
+
+.btn-menu {
+    margin-left: auto;
+}
+
+.calculator-bt {
+    margin-right: 3px;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+}
+
+.reset-bt {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 0;
+    border: 0;
+    width: 70px;
+    height: 30px;
+}
+
+.scale {
+    margin-left: 2px;
+}
+
+.slash {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.type-name {
+    font-weight: bold;
+}
+
+.result {
+    margin-top: 10px;
+    display: flex;
+}
+
+.result1 {
+
+    margin-right: 30px;
+}
+
+.graph {
+    display: flex;
+    color: white;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.bmi-value {
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.value1 {
+    margin-left: 100px;
+}
+
+.value2 {
+    margin-left: 95px;
+}
+
+.value3 {
+    margin-left: 75px;
+}
+
+.weight {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.under-weight {
+    background-color: cornflowerblue;
+    width: 139px;
+}
+
+.normal {
+    background-color: yellowgreen;
+    width: 111px;
+}
+
+.over-weight {
+    background-color: orange;
+    width: 100px;
+}
+
+.obesity {
+    background-color: red;
+    width: 205px;
+}
+
+.footer {
+    margin-left: 20px;
+}
+
+.circle {
+    color: lightseagreen;
+    font-weight: bold;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    margin-top: 20px;
+    color: lightseagreen;
+    font-weight: bold;
+
+}
+
+.footer-subcontent {
+    margin-top: 7px;
+    font-size: 14px;
+}
+.obesity-result{
+    padding-left: 10px;
+    color:red;
+}
+.bmi-result{
+    padding-left: 10px;
+    color:red;
+}
+
+.result.position{
+    display: flex;
+    flex-direction: column;
+}
+
