@@ -1,0 +1,22 @@
+.btn-menu {
+    margin-left: auto;
+}
+.calculator-bt {
+    margin-right: 3px;
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+}
+
+.reset-bt {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    border-radius: 0;
+    border: 0;
+    width: 70px;
+    height: 30px;
+}

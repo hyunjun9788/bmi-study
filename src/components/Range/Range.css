@@ -1,0 +1,54 @@
+.bmi-value {
+    display: flex;
+    margin-top: 50px;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.value1 {
+    margin-left: 100px;
+}
+
+.value2 {
+    margin-left: 95px;
+}
+
+.value3 {
+    margin-left: 75px;
+}
+
+.weight {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.under-weight {
+    background-color: cornflowerblue;
+    width: 139px;
+}
+
+.normal {
+    background-color: yellowgreen;
+    width: 111px;
+}
+
+.over-weight {
+    background-color: orange;
+    width: 100px;
+}
+
+.obesity {
+    background-color: red;
+    width: 205px;
+}
+
+.graph {
+    display: flex;
+    color: white;
+    height: 35px;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+    font-weight: bold;
+    font-size: 13px;
+}
+

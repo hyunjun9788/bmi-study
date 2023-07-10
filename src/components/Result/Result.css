@@ -1,0 +1,23 @@
+.result {
+    margin-top: 10px;
+    display: flex;
+}
+
+.result1 {
+
+    margin-right: 30px;
+}
+.obesity-result{
+     padding-left: 10px;
+     color:red;
+ }
+.bmi-result{
+    padding-left: 10px;
+    color:red;
+}
+
+.result.position{
+    display: flex;
+    flex-direction: column;
+}
+

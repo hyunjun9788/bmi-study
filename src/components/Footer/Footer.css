@@ -1,0 +1,21 @@
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-subtitle {
+    margin-top: 20px;
+    color: lightseagreen;
+    font-weight: bold;
+
+}
+
+.footer-subcontent {
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.footer {
+    margin-left: 20px;
+}
+
