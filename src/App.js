@@ -89,6 +89,8 @@ function App() {
                     resetClickHandler={resetClickHandler}
                     isCalculated={isCalculated}
                     result={result}
+                    inputHeight={input.height}
+                    inputWeight={input.weight}
                 />
             </div>
             <Footer className='footer'/>
